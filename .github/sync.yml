@@ -1,3 +1,4 @@
 seanmcguigan/sync-b@main:
   - source: data/
     dest: data/
+    deleteOrphaned: true
