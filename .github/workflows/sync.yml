@@ -1,12 +1,14 @@
 name: Sync Files
 on:
   push:
+    paths:
+      - 'data/**'
     branches:
       - main
   workflow_dispatch:
 jobs:
   sync:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository
         uses: actions/checkout@main
