@@ -1,0 +1,3 @@
+seanmcguigan/sync-a@main:
+  - source: data/
+    dest: data/
